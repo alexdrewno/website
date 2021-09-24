@@ -1,0 +1,31 @@
+.SideMenu-container {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #232323;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SideMenu-avatar {
+  width: 40%;
+  aspect-ratio: 1;
+  background-color: blue;
+  border-radius: 100%;
+}
+
+.SideMenu-row {
+  height: auto;
+  width: auto;
+}
+
+.SideMenu-button {
+  background-color: gray;
+  margin-top: 10px;
+  width: "100%";
+}

@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Muli-Bold";
+  src: local("Muli-Bold"),
+    url("./assets/Fonts/muli/Muli-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mada";
+  src: local("Mada"),
+    url("./assets/Fonts/Mada/Mada-Regular.ttf") format("truetype");
 }

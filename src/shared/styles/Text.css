@@ -11,6 +11,12 @@
   font-family: "Mada";
 }
 
+.Title-text {
+  color: black;
+  font-size: 18px;
+  font-family: "Mada";
+}
+
 .List-item {
   margin-bottom: -6px;
 }

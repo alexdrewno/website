@@ -1,9 +1,18 @@
 import "./ProjectCard.css";
+import "../../shared/styles/Text.css";
 
-export default function ProjectCard() {
+const baseImagePath = "../../assets/Photos/";
+
+export default function ProjectCard({ project }) {
   return (
     <div className="Card-container">
-      <div className="Card-photo"></div>
+      {project.image !== "" && (
+        <img src={project.image} className="Card-photo" alt="Kirbot" />
+      )}
+      <div className="Card-description-container">
+        <p className="Title-text List-item">{project.title}</p>
+        <p className="Normal-text">{project.description}</p>
+      </div>
     </div>
   );
 }

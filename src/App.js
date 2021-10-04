@@ -14,6 +14,18 @@ function App() {
     return projectCards;
   };
 
+  const renderProjectTitles = () => {
+    var projectTitles = [];
+
+    for (let i = 0; i < projects.length; i++) {
+      projectTitles.push(
+        <p className="Normal-text List-item">{projects[i].title}</p>
+      );
+    }
+
+    return projectTitles;
+  };
+
   return (
     <div className="App">
       <div className="App-container">
@@ -22,12 +34,7 @@ function App() {
         <div className="App-row-container">
           <div className="App-sidemenu">
             <p className="Section-text">PROJECTS</p>
-            <p className="Normal-text List-item">Trippy</p>
-            <p className="Normal-text List-item">Kirbot</p>
-            <p className="Normal-text List-item">Quick Invoice</p>
-            <p className="Normal-text List-item">Mutual Aid</p>
-            <p className="Normal-text List-item">Chatty-Bot</p>
-            <p className="Normal-text List-item">Login Page</p>
+            {renderProjectTitles()}
           </div>
           <div className="App-content-container">
             {renderProjects()}

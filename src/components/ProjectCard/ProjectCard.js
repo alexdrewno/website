@@ -10,7 +10,14 @@ export default function ProjectCard({ project }) {
         <img src={project.image} className="Card-photo" alt="Kirbot" />
       )}
       <div className="Card-description-container">
-        <p className="Title-text List-item">{project.title}</p>
+        <div className="Row-container">
+          {project.icon !== "" && (
+            <img src={project.icon} className="Card-icon" alt="Kirbot" />
+          )}
+          <p className="Title-text List-item Card-title-text ">
+            {project.title}
+          </p>
+        </div>
         <p className="Normal-text">{project.description}</p>
       </div>
     </div>

@@ -1,0 +1,17 @@
+.Tag-container {
+  height: 20px;
+  background-color: magenta;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 6px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.Tag-title {
+  color: white;
+  font-size: 12px;
+  font-family: "Mada";
+}

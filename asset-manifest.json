@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.12f3f4f3.chunk.css",
+    "main.js": "/website/static/js/main.de6af878.chunk.js",
+    "main.js.map": "/website/static/js/main.de6af878.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.58e119c9.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.58e119c9.js.map",
+    "static/js/2.ab71ef33.chunk.js": "/website/static/js/2.ab71ef33.chunk.js",
+    "static/js/2.ab71ef33.chunk.js.map": "/website/static/js/2.ab71ef33.chunk.js.map",
+    "static/js/3.9a307ac7.chunk.js": "/website/static/js/3.9a307ac7.chunk.js",
+    "static/js/3.9a307ac7.chunk.js.map": "/website/static/js/3.9a307ac7.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.12f3f4f3.chunk.css.map": "/website/static/css/main.12f3f4f3.chunk.css.map",
+    "static/js/2.ab71ef33.chunk.js.LICENSE.txt": "/website/static/js/2.ab71ef33.chunk.js.LICENSE.txt",
+    "static/media/ChattyBot_icon.png": "/website/static/media/ChattyBot_icon.67ce5389.png",
+    "static/media/ChattyBot_image.png": "/website/static/media/ChattyBot_image.0274006c.png",
+    "static/media/Dataspread_icon.png": "/website/static/media/Dataspread_icon.04e0f95c.png",
+    "static/media/Dataspread_image.png": "/website/static/media/Dataspread_image.5cce6edb.png",
+    "static/media/FBSApp_image.png": "/website/static/media/FBSApp_image.4da5c7c1.png",
+    "static/media/HackIllinois_icon.png": "/website/static/media/HackIllinois_icon.1dbbc569.png",
+    "static/media/HackIllinois_image.png": "/website/static/media/HackIllinois_image.52ba3980.png",
+    "static/media/Kirbot_icon.png": "/website/static/media/Kirbot_icon.8897bd51.png",
+    "static/media/Kirbot_image.png": "/website/static/media/Kirbot_image.c5580ffb.png",
+    "static/media/index.css": "/website/static/media/Muli-Bold.24ed2213.ttf",
+    "static/media/MutualAid_icon.png": "/website/static/media/MutualAid_icon.7fc0c113.png",
+    "static/media/MutualAid_image.png": "/website/static/media/MutualAid_image.0c146482.png",
+    "static/media/NotebookProjects_icon.png": "/website/static/media/NotebookProjects_icon.e0e612fd.png",
+    "static/media/NotebookProjects_image.png": "/website/static/media/NotebookProjects_image.f102f39e.png",
+    "static/media/QuickInvoice_icon.png": "/website/static/media/QuickInvoice_icon.32d33ce1.png",
+    "static/media/QuickInvoice_image.png": "/website/static/media/QuickInvoice_image.9a731407.png",
+    "static/media/TrippyApp_icon.png": "/website/static/media/TrippyApp_icon.32927a13.png",
+    "static/media/TrippyApp_image.png": "/website/static/media/TrippyApp_image.3d3ce69a.png",
+    "static/media/Winkel_image.png": "/website/static/media/Winkel_image.91725999.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58e119c9.js",
+    "static/js/2.ab71ef33.chunk.js",
+    "static/css/main.12f3f4f3.chunk.css",
+    "static/js/main.de6af878.chunk.js"
+  ]
+}

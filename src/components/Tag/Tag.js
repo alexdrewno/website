@@ -2,6 +2,7 @@ import "./Tag.css";
 
 const COLORS_DICT = {
   "React Native": "#61DBFB",
+  React: "#61DBFB",
   Firebase: "#FFA000",
   "Ruby on Rails": "#cc0000",
   Python: "#FFD43B",
@@ -13,6 +14,12 @@ const COLORS_DICT = {
   "Machine Learning": "gray",
   "Computer Vision": "#cc0000",
   "Data Scraping/Parsing": "blue",
+  Expo: "blue",
+  "A.I.": "purple",
+  "Core Data": "green",
+  GoLang: "#29BEB0",
+  "C++": "#044F88",
+  "Systems Programming": "Red",
 };
 
 export default function Tag({ title }) {

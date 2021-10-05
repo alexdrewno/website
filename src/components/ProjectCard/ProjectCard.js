@@ -14,7 +14,7 @@ export default function ProjectCard({ project }) {
   };
 
   return (
-    <div className="Card-container">
+    <div className="Card-container" id={project.title}>
       {project.image !== "" && (
         <img src={project.image} className="Card-photo" alt="Kirbot" />
       )}
@@ -23,7 +23,7 @@ export default function ProjectCard({ project }) {
           {project.icon !== "" && (
             <img src={project.icon} className="Card-icon" alt="Kirbot" />
           )}
-          <p className="Title-text List-item Card-title-text ">
+          <p className="Card-title-text List-item Card-title-text ">
             {project.title}
           </p>
         </div>

@@ -1,7 +1,7 @@
 import "./App.css";
 import "./shared/styles/Text.css";
-import { Header, ProjectCard } from "./components";
-import { projects } from "./data/Projects";
+import { Header, ProjectCard, SideMenu } from "./components";
+import { projects, contributions } from "./data/Projects";
 
 function App() {
   const renderProjects = () => {
@@ -14,31 +14,27 @@ function App() {
     return projectCards;
   };
 
-  const renderProjectTitles = () => {
-    var projectTitles = [];
+  const renderContributions = () => {
+    var contributionCards = [];
 
-    for (let i = 0; i < projects.length; i++) {
-      projectTitles.push(
-        <p className="Normal-text List-item">{projects[i].title}</p>
-      );
+    for (let i = 0; i < contributions.length; i++) {
+      contributionCards.push(<ProjectCard project={contributions[i]} />);
     }
 
-    return projectTitles;
+    return contributionCards;
   };
 
   return (
     <div className="App">
       <div className="App-container">
-        <Header />
-
         <div className="App-row-container">
-          <div className="App-sidemenu">
-            <p className="Section-text">PROJECTS</p>
-            {renderProjectTitles()}
-          </div>
+          <SideMenu projects={projects} contributions={contributions} />
+
           <div className="App-content-container">
+            <p className="Title-text"> Recent Projects </p>
             {renderProjects()}
-            {/* <h1>credit design</h1> */}
+            <p className="Title-text"> Major Contributions </p>
+            {renderContributions()}
           </div>
         </div>
       </div>

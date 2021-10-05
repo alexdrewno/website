@@ -13,10 +13,12 @@
 
 .Title-text {
   color: black;
-  font-size: 18px;
-  font-family: "Mada";
+  font-size: 24px;
+  font-family: "Mada-bold";
+  width: 100%;
+  margin-top: -5px;
 }
 
 .List-item {
-  margin-bottom: -6px;
+  margin-bottom: 6px;
 }

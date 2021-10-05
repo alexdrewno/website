@@ -1,0 +1,16 @@
+.Sidemenu-container {
+  width: 15%;
+  margin-right: 50px;
+}
+
+.Sidemenu-separator {
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+}
+
+.Sidemenu-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+}

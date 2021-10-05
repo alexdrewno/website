@@ -20,6 +20,7 @@ const COLORS_DICT = {
   GoLang: "#29BEB0",
   "C++": "#044F88",
   "Systems Programming": "Red",
+  "Open Source": "#e64980",
 };
 
 export default function Tag({ title }) {

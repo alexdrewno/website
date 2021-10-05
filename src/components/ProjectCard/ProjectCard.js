@@ -1,6 +1,7 @@
 import "./ProjectCard.css";
 import "../../shared/styles/Text.css";
 import Tag from "../Tag/Tag";
+import OpenIcon from "../../assets/Photos/Open_icon.png";
 
 export default function ProjectCard({ project }) {
   const renderKeywords = () => {
@@ -23,9 +24,10 @@ export default function ProjectCard({ project }) {
           {project.icon !== "" && (
             <img src={project.icon} className="Card-icon" alt="Kirbot" />
           )}
-          <p className="Card-title-text List-item Card-title-text ">
+          <a href={project.link} className="Card-title-text" target="_blank">
             {project.title}
-          </p>
+            <img src={OpenIcon} className="Card-open-icon" alt="open" />
+          </a>
         </div>
         <div className="Row-container">{renderKeywords()}</div>
         <p className="Normal-text">{project.description}</p>

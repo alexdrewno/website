@@ -43,6 +43,16 @@
   color: black;
   font-size: 18px;
   font-family: "Mada";
+  margin-top: 18px;
+  text-decoration: none;
+}
+
+.Card-open-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  margin-bottom: -2px;
+  align-self: flex-end;
 }
 
 .Card-description-container {

@@ -5,6 +5,7 @@ export const projects = [
     description:
       "Easily plan group trips by creating a plan, inviting members, and delegating tasks.",
     github: "",
+    link: "https://trippy-app.webflow.io/",
     image: require("../assets/Photos/TrippyApp_image.png").default,
     keywords: ["React Native", "Ruby on Rails", "Expo"],
   },
@@ -12,10 +13,11 @@ export const projects = [
     title: "Kirbot",
     icon: require("../assets/Photos/Kirbot_icon.png").default,
     description:
-      "A Discord bot to help log time spent, collect points, create bets, and redeem rewards",
+      "A Discord bot to help log time spent, collect points, create bets, and redeem rewards.",
     github: "",
+    link: "https://github.com/kirbec/kirbec-bot",
     image: require("../assets/Photos/Kirbot_image.png").default,
-    keywords: ["Python", "Firebase", "A.I."],
+    keywords: ["Python", "Firebase", "A.I.", "Open Source"],
   },
   {
     title: "Family Behavior Support App",
@@ -23,6 +25,7 @@ export const projects = [
     description:
       "An app created alongside researchers from Vanderbilt University to help families with children with challenging behavior.",
     github: "",
+    link: "https://lab.vanderbilt.edu/barton-lab/fbsapp/",
     image: require("../assets/Photos/FBSApp_image.png").default,
     keywords: ["React Native", "NodeJS", "Firebase", "Google Cloud", "Expo"],
   },
@@ -32,8 +35,9 @@ export const projects = [
     description:
       "Create invoices on the go; Quick Invoice creates a personalized database of previous items/invoices on your phone.",
     github: "",
+    link: "https://github.com/kirbec/QuickInvoice",
     image: require("../assets/Photos/QuickInvoice_image.png").default,
-    keywords: ["Swift", "Core Data"],
+    keywords: ["Swift", "Core Data", "Open Source"],
   },
   {
     title: "Notebook Projects",
@@ -41,6 +45,7 @@ export const projects = [
     description:
       "A collection of micro-projects exploring various topics including computer vision, machine learning, and other miscellaneous projects.",
     github: "",
+    link: "https://github.com/kirbec/NotebookProjects",
     image: require("../assets/Photos/NotebookProjects_image.png").default,
     keywords: [
       "Python",
@@ -55,8 +60,9 @@ export const projects = [
     icon: require("../assets/Photos/ChattyBot_icon.png").default,
     description: "A Discord bot to track messages and logs in Discord servers.",
     github: "",
+    link: "https://github.com/kirbec/chatty-bot",
     image: require("../assets/Photos/ChattyBot_image.png").default,
-    keywords: ["Python", "MongoDB"],
+    keywords: ["Python", "MongoDB", "Open Source"],
   },
 ];
 
@@ -98,7 +104,7 @@ export const contributions = [
     description:
       "An iOS application used by over 1,500 people as a shared storage app - find a place to temporarily store things or rent out your extra space.",
     github: "",
-    link: "",
+    link: "https://startups.link/company/win-kel/",
     image: require("../assets/Photos/Winkel_image.png").default,
     keywords: ["Swift", "Core Data", "Firebase"],
   },

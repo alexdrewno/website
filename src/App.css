@@ -31,12 +31,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: darkgray;
-  color: white;
-}

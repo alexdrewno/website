@@ -9,6 +9,12 @@
   color: gray;
   font-size: 14px;
   font-family: "Mada";
+  text-decoration: none;
+}
+
+.Normal-text-hover:hover {
+  background-color: darkgray;
+  color: white;
 }
 
 .Title-text {

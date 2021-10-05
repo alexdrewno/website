@@ -1,6 +1,6 @@
 import "./App.css";
 import "./shared/styles/Text.css";
-import { Header, ProjectCard, SideMenu } from "./components";
+import { ProjectCard, SideMenu } from "./components";
 import { projects, contributions } from "./data/Projects";
 
 function App() {

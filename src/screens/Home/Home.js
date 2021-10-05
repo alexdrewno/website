@@ -14,7 +14,7 @@ export default function Home() {
           >
             Kirbec
           </a>
-          <p className="Normal-text">Creator of things ☀️ </p>
+          <p className="Normal-text"> Just another philomath ☀️ </p>
         </div>
 
         <div className="Page-section-div">

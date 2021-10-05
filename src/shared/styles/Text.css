@@ -7,13 +7,13 @@
 
 .Normal-text {
   color: black;
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Trebuchet", "Trebuchet MS", Sans-Serif, Arial, sans-serif;
   margin: 0px;
 }
 
 .Highlighted-text {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Trebuchet", "Trebuchet MS", Sans-Serif, Arial, sans-serif;
   color: #fffcf7;
   background-color: tomato;

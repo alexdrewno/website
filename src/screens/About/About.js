@@ -16,7 +16,7 @@ export default function About() {
         <ul className="About-list">
           <li>
             <div className="Page-section-div">
-              {"I graduated from "}
+              {"My name is Alexander Drewno and I graduated from "}
               <a
                 href="/"
                 className="Highlighted-text"
@@ -24,7 +24,7 @@ export default function About() {
               >
                 University of Illinois at Urbana-Champaign
               </a>
-              {" in 2021 and I am currently based in Chicago, Illinois"}
+              {" in 2021. Currently, I am based in Chicago, Illinois"}
             </div>
           </li>
           <li>

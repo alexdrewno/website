@@ -134,6 +134,13 @@ export default function Home() {
             email
           </a>
         </div>
+        <a
+          href="ooqq.me"
+          className="Highlighted-text-small"
+          style={{ backgroundColor: "#f8961e" }}
+        >
+          credit goes to ooqq.me for design
+        </a>
       </div>
     </div>
   );

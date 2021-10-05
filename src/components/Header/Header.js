@@ -5,11 +5,12 @@ export default function Header() {
   return (
     <div className="Header-container">
       <div className="Header-small-container">
-        <p className="Section-text">ALEXANDER DREWNO</p>
+        <p className="Section-text">Alexander Drewno</p>
       </div>
       <div className="Header-small-container">
         <p className="Normal-text List-item">Github</p>
         <p className="Normal-text List-item">LinkedIn</p>
+        <p className="Normal-text List-item">Contact me</p>
       </div>
       <div className="Header-small-container"></div>
       <div className="Header-medium-container">

@@ -13,6 +13,7 @@ const COLORS_DICT = {
   "Machine Learning": "gray",
   "Computer Vision": "#cc0000",
   "Data Scraping/Parsing": "blue",
+  Expo: "#3e2acf",
 };
 
 export default function Tag({ title }) {

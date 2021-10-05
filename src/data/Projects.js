@@ -6,7 +6,7 @@ export const projects = [
       "Easily plan group trips by creating a plan, inviting members, and delegating tasks.",
     github: "",
     image: require("../assets/Photos/TrippyApp_image.png").default,
-    keywords: ["React Native", "Ruby on Rails"],
+    keywords: ["React Native", "Ruby on Rails", "Expo"],
   },
   {
     title: "Kirbot",
@@ -24,7 +24,14 @@ export const projects = [
       "An app created alongside researchers from Vanderbilt University to help families with children with challenging behavior.",
     github: "",
     image: require("../assets/Photos/FBSApp_image.png").default,
-    keywords: ["React Native", "NodeJS", "Firebase", "Google Cloud"],
+    keywords: [
+      "React Native",
+      "NodeJS",
+      "Firebase",
+      "Google Cloud",
+      "ExpressJS",
+      "Expo",
+    ],
   },
   {
     title: "Quick Invoice",

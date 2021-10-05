@@ -1,0 +1,26 @@
+.Page {
+  text-align: left;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Page-container {
+  max-width: 800px;
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 40px;
+  margin-inline: 20px;
+}
+
+.Page-section-div {
+  margin-top: 60px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Page-footer {
+  flex-direction: row;
+  margin-bottom: 50px;
+}

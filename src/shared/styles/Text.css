@@ -2,21 +2,57 @@
   color: gray;
   font-size: 14px;
   font-weight: bold;
-  font-family: "Muli";
+  font-family: "Mada";
 }
 
 .Normal-text {
-  color: gray;
-  font-size: 14px;
-  font-family: "Mada";
-}
-
-.Title-text {
   color: black;
-  font-size: 18px;
-  font-family: "Mada";
+  font-size: 30px;
+  font-family: "Trebuchet", "Trebuchet MS", Sans-Serif, Arial, sans-serif;
+  margin: 0px;
 }
 
-.List-item {
-  margin-bottom: -6px;
+.Highlighted-text {
+  font-size: 30px;
+  font-family: "Trebuchet", "Trebuchet MS", Sans-Serif, Arial, sans-serif;
+  color: #fffcf7;
+  background-color: tomato;
+  text-decoration: none;
+  padding-inline: 2px;
+}
+
+.Highlighted-text-small {
+  font-size: 16px;
+  font-family: "Trebuchet", "Trebuchet MS", Sans-Serif, Arial, sans-serif;
+  color: #fffcf7;
+  background-color: tomato;
+  text-decoration: none;
+  margin-right: 10px;
+  padding-inline: 2px;
+}
+
+.Highlighted-text:hover {
+  text-decoration: underline;
+}
+
+.Highlighted-text-small:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 0.2rem;
+  -webkit-animation: colorRotator 30s infinite linear;
+  animation: colorRotator 30s infinite linear;
+}
+
+@keyframes colorRotator {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
 }

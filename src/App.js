@@ -28,7 +28,11 @@ function App() {
     <div className="App">
       <div className="App-container">
         <div className="App-row-container">
-          <SideMenu projects={projects} contributions={contributions} />
+          <SideMenu
+            projects={projects}
+            contributions={contributions}
+            id="sidebar"
+          />
 
           <div className="App-content-container">
             <p className="Title-text"> Recent Projects </p>

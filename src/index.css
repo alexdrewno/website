@@ -24,3 +24,9 @@ code {
   src: local("Mada"),
     url("./assets/Fonts/Mada/Mada-Regular.ttf") format("truetype");
 }
+
+@media screen and (max-width: 911px) {
+  #sidebar {
+    display: none;
+  }
+}

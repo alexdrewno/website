@@ -1,7 +1,7 @@
 import "./SideMenu.css";
 import "../../shared/styles/Text.css";
 
-export default function SideMenu({ projects, contributions }) {
+export default function SideMenu({ projects, contributions, id }) {
   const renderProjectTitles = () => {
     var projectTitles = [];
 
@@ -37,7 +37,7 @@ export default function SideMenu({ projects, contributions }) {
   };
 
   return (
-    <div className="Sidemenu-container">
+    <div className="Sidemenu-container" id={id}>
       <div className="Sidemenu-separator" />
       <div className="Sidemenu-section">
         <p className="Section-text">Alexander Drewno</p>

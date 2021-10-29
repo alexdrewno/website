@@ -1,5 +1,6 @@
 import "./intro.css";
 import Me from "../../assets/Photos/me.png";
+import { Link } from "react-router-dom";
 
 export default function Intro() {
   return (
@@ -18,13 +19,13 @@ export default function Intro() {
           alignItems: "center",
         }}
       >
-        <a
-          href="/projects"
+        <Link
+          to="/projects"
           className="Highlighted-text-small"
           style={{ backgroundColor: "#577590" }}
         >
           Projects
-        </a>
+        </Link>
         <a
           href="https://github.com/kirbec"
           className="Highlighted-text-small"

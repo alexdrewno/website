@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter, Switch, Route, Link } from "react-router-dom";
 
 import "./App.css";
 import "./shared/styles/Text.css";
@@ -50,16 +50,16 @@ function Projects() {
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <Switch>
-        <Route exact path="/">
-          <Intro />
-        </Route>
         <Route path="/projects">
           <Projects />
         </Route>
+        <Route exact path="/">
+          <Intro />
+        </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 

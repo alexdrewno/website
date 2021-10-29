@@ -1,9 +1,11 @@
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import "./App.css";
 import "./shared/styles/Text.css";
-import { ProjectCard, SideMenu } from "./components";
+import { ProjectCard, SideMenu, Intro } from "./components";
 import { projects, contributions } from "./data/Projects";
 
-function App() {
+function Projects() {
   const renderProjects = () => {
     var projectCards = [];
 
@@ -43,6 +45,21 @@ function App() {
         </div>
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/">
+          <Intro />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

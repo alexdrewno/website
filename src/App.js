@@ -52,7 +52,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <Intro />
         </Route>
         <Route path="/projects">

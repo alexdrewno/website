@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7ed838ee.chunk.css",
-    "main.js": "/static/js/main.bf3f2525.chunk.js",
-    "main.js.map": "/static/js/main.bf3f2525.chunk.js.map",
+    "main.js": "/static/js/main.1cae4cb8.chunk.js",
+    "main.js.map": "/static/js/main.1cae4cb8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b25927a7.js",
     "runtime-main.js.map": "/static/js/runtime-main.b25927a7.js.map",
-    "static/js/2.49a480bb.chunk.js": "/static/js/2.49a480bb.chunk.js",
-    "static/js/2.49a480bb.chunk.js.map": "/static/js/2.49a480bb.chunk.js.map",
+    "static/js/2.60d4e8db.chunk.js": "/static/js/2.60d4e8db.chunk.js",
+    "static/js/2.60d4e8db.chunk.js.map": "/static/js/2.60d4e8db.chunk.js.map",
     "static/js/3.f09b1c69.chunk.js": "/static/js/3.f09b1c69.chunk.js",
     "static/js/3.f09b1c69.chunk.js.map": "/static/js/3.f09b1c69.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.7ed838ee.chunk.css.map": "/static/css/main.7ed838ee.chunk.css.map",
-    "static/js/2.49a480bb.chunk.js.LICENSE.txt": "/static/js/2.49a480bb.chunk.js.LICENSE.txt",
+    "static/js/2.60d4e8db.chunk.js.LICENSE.txt": "/static/js/2.60d4e8db.chunk.js.LICENSE.txt",
     "static/media/ChattyBot_icon.png": "/static/media/ChattyBot_icon.67ce5389.png",
     "static/media/ChattyBot_image.png": "/static/media/ChattyBot_image.0274006c.png",
     "static/media/Dataspread_icon.png": "/static/media/Dataspread_icon.04e0f95c.png",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b25927a7.js",
-    "static/js/2.49a480bb.chunk.js",
+    "static/js/2.60d4e8db.chunk.js",
     "static/css/main.7ed838ee.chunk.css",
-    "static/js/main.bf3f2525.chunk.js"
+    "static/js/main.1cae4cb8.chunk.js"
   ]
 }

@@ -36,7 +36,7 @@ function Projects() {
             id="sidebar"
           />
 
-          <div className="App-content-container">
+          <div className="App-content-container" id="content-container">
             <p className="Title-text"> Recent Projects </p>
             {renderProjects()}
             <p className="Title-text"> Major Contributions </p>

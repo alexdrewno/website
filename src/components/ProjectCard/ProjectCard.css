@@ -6,6 +6,7 @@
   border-color: lightgray;
   background-color: white;
   margin-bottom: 50px;
+  margin-inline: 10px;
 }
 
 .Card-photo {

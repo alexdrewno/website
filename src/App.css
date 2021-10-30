@@ -18,9 +18,9 @@
 }
 
 .App-content-container {
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: -20px;
